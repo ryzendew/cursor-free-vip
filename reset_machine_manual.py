@@ -493,11 +493,11 @@ class MachineIDResetter:
                 
                 config.set('LinuxPaths', 'storage_path', os.path.abspath(os.path.join(
                     actual_home,
-                    ".config/cursor/User/globalStorage/storage.json"
+                    ".config/Cursor/User/globalStorage/storage.json"
                 )))
                 config.set('LinuxPaths', 'sqlite_path', os.path.abspath(os.path.join(
                     actual_home,
-                    ".config/cursor/User/globalStorage/state.vscdb"
+                    ".config/Cursor/User/globalStorage/state.vscdb"
                 )))
                 
             self.db_path = config.get('LinuxPaths', 'storage_path')
